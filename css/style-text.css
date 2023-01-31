@@ -1,44 +1,54 @@
 .h1{
+    font-family: 'Gilroy';
     font-weight: 700;
     font-size: 48px;
     line-height: 1.4;
+    color: #fff;
 }
 .h2{
+    font-family: 'Gilory';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.4;
 }
 .h3{
+    font-family: 'Gilory';
     font-weight: 700;
     font-size: 27px;
     line-height: 1.4;
 }
 .h4{
+    font-family: 'Gilory';
     font-weight: 600;
     font-size: 21px;
     line-height: 1.4;
 }
 .p{
+    font-family: 'Gilory';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
 }
 .p-14{
+    font-family: 'Gilory';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
 }
 .p-18{
+    font-family: 'Gilory';
     font-weight: 600;
     font-size: 18px;
     line-height: 1.4;
 }
 .p-24{
+    font-family: 'Gilory';
     font-weight: 700px;
     font-size: 24px;
     line-height: 1.4;
 }
 .header-h{
+    font-family: 'Gilory';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
