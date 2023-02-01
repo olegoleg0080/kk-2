@@ -47,7 +47,11 @@ header .container {
   height: 20px;
 }
 .nav-menu-item-after {
-  margin-right: 145px
+  margin-right:185px
+}
+.nav-menu-icon{
+  position: relative; left: 927px;
+  transform: translateY(25%);
 }
 /*svg-icon*/
 
@@ -94,9 +98,11 @@ header .container {
   gap: 12px;
 }
 .hero-list-item-btn {
-  padding: 35px 120px 40px 35px;
+  position: relative;
+  padding: 35px 0 40px 35px;
   background-color: #8D86C9;
   width: 315px;
+  height: 151px;
   font-weight: 600;
   font-size: 18px;
   border: 0;
@@ -115,33 +121,12 @@ header .container {
   font-weight: 700;
   font-size: 24px;
 }
-.svg-hero-list-item-btn.element1{
+.svg-hero-list-item-btn.element{
   fill: #ffffff;
   width: 20px;
   height: 20px;
-  left: 567px;
-  top: 916px;
-}
-.svg-hero-list-item-btn.element2{
-  fill: #ffffff;
-  width: 20px;
-  height: 20px;
-  left: 894px;
-  top: 916px;
-}
-.svg-hero-list-item-btn.element3{
-  fill: #ffffff;
-  width: 20px;
-  height: 20px;
-  left: 1221px;
-  top: 916px;
-}
-.svg-hero-list-item-btn.element4{
-  fill: #ffffff;
-  width: 20px;
-  height: 20px;
-  left: 1548px;
-  top: 916px;
+  left: 255px;
+  top: 77px;
 }
 /* container */
 
