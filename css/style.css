@@ -46,9 +46,7 @@ header .container {
   color: #ffffff;
   height: 20px;
 }
-.nav-menu-item-after {
-  margin-right:185px
-}
+
 .nav-menu-icon{
   position: relative;
   left: 927px;
@@ -80,6 +78,9 @@ header .container {
 }
 .icon-svg2:hover{
   fill: blue;
+}
+.icon-svg3:hover{
+  fill: rgb(0, 140, 255);
 }
 /* main html */
 .button-a{
@@ -218,7 +219,11 @@ header .container {
   text-align: center;
   margin-bottom: 15px;
 }
-
+/*abonser*/
+.abon-servis{
+  display: flex;
+  gap: 134px;
+}
 /* abonement */
 .abonement-sevis {
   display: flex;
@@ -255,13 +260,56 @@ header .container {
   right: 60px;
   top: 8px;
 }
+/* servis */
 /* container */
 
 .container {
   max-width: 1296px;
   margin: 0 auto;
 }
+/* future */
+footer{
+  background-color: #F7ECE1;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
 
+}
+footer .container {
+    display: flex;
+    align-items: center;
+}
+.nav-menu-item .element{
+  color: #333333;
+}
+.nav-menu-icon-footer{
+  position: relative;
+  transform: translateY(25%);
+  left: 1142px;
+}
+.footer-link{
+  color: #333333;
+  text-decoration: none;
+}
+#footer1{
+  color: #333333;
+  opacity: 0.3;
+  padding-right: 64px;
+}
+.footer-icon{
+  width: 36px;
+  height: 36px;
+  display: block;
+  position: relative;
+  fill: #8D86C9;
+  transform: translateY(-20%);
+}
+.nav-menu-list-footer{
+  position: absolute;
+  display: flex;
+  gap: 40px;
+  transform: translateY(-25%)
+}
 /* block html */
 .boxs {
   max-width: 1040px;
