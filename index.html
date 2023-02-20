@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"
     />
+    <link rel="stylesheet" href="./css/swiper.css">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/style-text.css" />
     <link rel="stylesheet" href="./css/button-video.css" />
@@ -200,129 +201,184 @@
       </section>
       <section class="portfolio">
         <div class="container">
-          <h2 class="h2-portfolio h2">Тренерский состав</h2>
-          <button class="svg-portfolio-btn element1">
-            <a href="index.html">
-              <svg class="svg-portfolio">
-                <use
-                  class="svg-vector"
-                  href="./images/svg/vector1.svg#vector1"
-                ></use>
-              </svg>
-            </a>
-          </button>
-          <button class="svg-portfolio-btn element2">
-            <a href="index.html">
-              <svg class="svg-portfolio">
-                <use
-                  class="svg-vector"
-                  href="./images/svg/vector2.svg#vector2"
-                ></use>
-              </svg>
-            </a>
-          </button>
-          <div>
-            <ul class="trener-list">
-              <li class="trenerlist1">
+          <div style="display: flex;">
+            <h2 class="h2-portfolio h2">Тренерский состав</h2>
+            <div class="svg-portfolio-btn element1" style="margin-top: 150px;">
+                <svg class="svg-portfolio">
+                  <use
+                    class="svg-vector"
+                    href="./images/svg/vector1.svg#vector1"
+                  ></use>
+                </svg>
+            </div>
+            <div class="svg-portfolio-btn element2" style="margin-top: 150px;">
+                <svg class="svg-portfolio">
+                  <use
+                    class="svg-vector"
+                    href="./images/svg/vector2.svg#vector2"
+                  ></use>
+                </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="swiperr">
+        <div class="container">
+          <div class="swiper">
+            <div class="swiper-button-next">
+              <button class="svg-portfolio-btn">
+                <svg class="svg-portfolio">
+                  <use
+                    class="svg-vector"
+                    href="./images/svg/vector2.svg#vector2"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+            <div class="swiper-button-prev">
+              <button class="svg-portfolio-btn">
+                  <svg class="svg-portfolio">
+                    <use
+                      class="svg-vector"
+                      href="./images/svg/vector1.svg#vector1"
+                    ></use>
+                  </svg>
+              </button>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide ">
                 <img
-                  src="./images/portfolio/trener1.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Pulvinar <br />
-                  aliquam
-                </h4>
-                <p class="trener-inf p-14">
-                  Arcu elit massa amet turpis vel <br />
-                  consequat pellentesque sit.
-                </p>
-              </li>
-              <li class="trenerlist2">
+                src="./images/portfolio/trener1.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Pulvinar <br />
+                aliquam
+              </h4>
+              <p class="trener-inf p-14">
+                Arcu elit massa amet turpis vel <br />
+                consequat pellentesque sit.
+              </p>
+              </div>
+              <div class="swiper-slide">
+                                <img
+                    src="./images/portfolio/trener2.png"
+                    alt="no"
+                    class="trener"
+                    style="width: 166px; height: 240px"
+                  />
+                  <h4 class="trener-name h4">
+                    Pretium <br />
+                    odio
+                  </h4>
+                  <p class="trener-inf p-14">
+                    Bibendum aliquam volutpat <br />
+                    nisl a duis in nisi. In sed <br />
+                    commodo lorem morbi quis.
+                  </p>
+              </div>
+              <div class="swiper-slide">
                 <img
-                  src="./images/portfolio/trener2.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Pretium <br />
-                  odio
-                </h4>
-                <p class="trener-inf p-14">
-                  Bibendum aliquam volutpat <br />
-                  nisl a duis in nisi. In sed <br />
-                  commodo lorem morbi quis.
-                </p>
-              </li>
-              <li class="trenerlist3">
+                src="./images/portfolio/trener1.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Pulvinar <br />
+                aliquam
+              </h4>
+              <p class="trener-inf p-14">
+                Arcu elit massa amet turpis vel <br />
+                consequat pellentesque sit.
+              </p>
+              </div>
+              <div class="swiper-slide">
                 <img
-                  src="./images/portfolio/trener3.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Aliquet <br />
-                  consectetur
-                </h4>
-                <p class="trener-inf p-14">
-                  Id sapien sed nibh fermentum <br />
-                  massa posuere ipsum. Diam in.
-                </p>
-              </li>
-              <li class="trenerlist4">
+                src="./images/portfolio/trener2.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Pretium <br />
+                odio
+              </h4>
+              <p class="trener-inf p-14">
+                Bibendum aliquam volutpat <br />
+                nisl a duis in nisi. In sed <br />
+                commodo lorem morbi quis.
+              </p>
+              </div>
+              <div class="swiper-slide">
                 <img
-                  src="./images/portfolio/trener4.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Blandit <br />
-                  augue
-                </h4>
-                <p class="trener-inf p-14">
-                  Scelerisque accumsan pretium <br />
-                  justo, vitae elit. Dolor semper <br />
-                  morbi sit auctor vel diam eros.
-                </p>
-              </li>
-              <li class="trenerlist5">
+                src="./images/portfolio/trener3.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Aliquet <br />
+                consectetur
+              </h4>
+              <p class="trener-inf p-14">
+                Id sapien sed nibh fermentum <br />
+                massa posuere ipsum. Diam in.
+              </p>
+              </div>
+              <div class="swiper-slide">
                 <img
-                  src="./images/portfolio/trener5.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Lorem <br />
-                  lacus
-                </h4>
-                <p class="trener-inf p-14">
-                  Adipiscing amet, viverra <br />
-                  dignissim egestas. Sed nibh <br />
-                  egestas venenatis faucibus.
-                </p>
-              </li>
-              <li class="trenerlist6">
+                src="./images/portfolio/trener4.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Blandit <br />
+                augue
+              </h4>
+              <p class="trener-inf p-14">
+                Scelerisque accumsan pretium <br />
+                justo, vitae elit. Dolor semper <br />
+                morbi sit auctor vel diam eros.
+              </p>
+              </div>
+              <div class="swiper-slide">
                 <img
-                  src="./images/portfolio/trener6.png"
-                  alt="no"
-                  class="trener"
-                  style="width: 166px; height: 240px"
-                />
-                <h4 class="trener-name h4">
-                  Sed <br />
-                  erat
-                </h4>
-                <p class="trener-inf p-14">
-                  Quis ullamcorper pretium <br />
-                  lacus risus tellus dolor etiam.
-                </p>
-              </li>
-            </ul>
+                src="./images/portfolio/trener5.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Lorem <br />
+                lacus
+              </h4>
+              <p class="trener-inf p-14">
+                Adipiscing amet, viverra <br />
+                dignissim egestas. Sed nibh <br />
+                egestas venenatis faucibus.
+              </p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                src="./images/portfolio/trener6.png"
+                alt="no"
+                class="trener"
+                style="width: 166px; height: 240px"
+              />
+              <h4 class="trener-name h4">
+                Sed <br />
+                erat
+              </h4>
+              <p class="trener-inf p-14">
+                Quis ullamcorper pretium <br />
+                lacus risus tellus dolor etiam.
+              </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -334,7 +390,7 @@
               <ul class="abonement-list">
                 <li class="abonements">
                   <button class="abonement-btn h4">
-                    Зимний сезон 2021-2022
+                    <a href="">Зимний сезон 2021-2022</a>
                   </button>
                   <img
                     class="img-abonement"
@@ -345,7 +401,7 @@
               </ul>
               <ul class="abonement-list">
                 <li class="abonements">
-                  <button class="abonement-btn h4">Абонементы</button>
+                  <button class="abonement-btn h4"><a href="">Абонементы<a ></button>
                   <img
                     class="img-abonement"
                     src="./images/svg/vector1.svg"
@@ -355,7 +411,7 @@
               </ul>
               <ul class="abonement-list">
                 <li class="abonements">
-                  <button class="abonement-btn h4">Скидки</button>
+                  <button class="abonement-btn h4"><a href="">Скидки</a></button>
                   <img
                     class="img-abonement"
                     src="./images/svg/vector1.svg"
@@ -366,7 +422,7 @@
               <ul class="abonement-list">
                 <li class="abonements element4">
                   <button class="abonement-btn h4">
-                    Дополнительные услуги
+                    <a href="">Дополнительные услуги</a>
                   </button>
                   <img
                     class="img-abonement"
@@ -482,5 +538,7 @@
         </div>
       </footer>
     </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
   </body>
 </html>

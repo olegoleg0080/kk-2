@@ -1,5 +1,8 @@
 /* reset */
-
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
@@ -10,6 +13,9 @@ ul {
   list-style: none;
 }
 
+button{
+  cursor: pointer;
+}
 
 /* style */
 
@@ -347,6 +353,26 @@ margin-left: 366px;
   padding-top: 202px;
   padding-left: 40px;
 }
+/* swaper */
+.swiperr{
+  margin-top: 75px;
+}
+
+.swiper {
+  width: 856px;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 208px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
 /* container */
 
 .container {
