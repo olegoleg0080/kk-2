@@ -26,7 +26,7 @@ swiper-container {
   position: relative;
   overflow: hidden;
   list-style: none;
-  padding: 0;
+  padding-top: 122px;
   z-index: 1;
   display: block;
 }
@@ -244,7 +244,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-button-next,
 .swiper-button-prev {
   position: absolute;
-  margin-top: 0;
+  margin-top: -122px;
   z-index: 10;
   cursor: pointer;
   display: flex;
@@ -279,8 +279,8 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-  left: var(--swiper-navigation-sides-offset, 10px);
-  right: auto;
+  left: auto;
+  right: 70px;
 }
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
